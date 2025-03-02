@@ -14,10 +14,10 @@ function changeColor() {
 
 function handleClick(belal, isDoubleAlert = false) {
     if (isDoubleAlert) {
-        alert("Board Update Successful" + belal); // First alert
-        alert("Congratuletion " + belal); // Second alert
+        alert("Board Update Successfuly  "); // First alert
+        alert("Congrates!! You have completed all the current task "); // Second alert
     } else {
-        alert("Board Update Successful " + belal);
+        alert("Board Update Successfully ");
     }
 
     let button = document.getElementById(belal);
